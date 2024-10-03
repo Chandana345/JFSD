@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Choose a clean, modern font */
+}
+
+/* Body Styles */
+body {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/56a867d3df40f3b3891a5dd1/1718877668631-94A5FQBVLV7YWH6VX336/Coose+a+category.png?format=2500w'); /* Add a background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: white; /* Change text color to contrast with the background */
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+/* styles.css */
+
+/* Existing styles... */
+
+/* styles.css */
+
+/* Existing styles... */
+
+nav {
+    background-color: #4CAF50; /* Updated background color */
+    padding: 10px 20px; /* Padding for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: right; /* Center the items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the font bold */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #f1f1f1; /* Change color on hover for better contrast */
+}
+
+
+
+/* Main Content Styles */
+/* styles.css */
+
+/* Existing styles... */
+
+main {
+    text-align: center; /* Center align text */
+    padding: 250px; /* Add padding for spacing */
+}
+
+main h2 {
+    font-size: 40px; /* Adjust the font size for the h2 */
+    margin: 20px 0; /* Add margin for spacing above and below */
+}
+
+main p {
+    font-size: 20px; /* Adjust the font size for the paragraph */
+    margin: 10px 0; /* Add margin for spacing above and below */
+}
+
+/* Footer Styles */
+/* styles.css */
+
+/* Existing styles... */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Ensures main content takes up remaining space */
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0; /* Add more padding for spacing */
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding for inner spacing */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Additional button styles (optional) */
+button {
+    background-color: rgba(255, 255, 255, 0.8); /* Light button background */
+    color: black; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Change background on hover */
+}
